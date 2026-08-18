@@ -1,21 +1,279 @@
 {
   "meta": {
-    "title": "Shrtcut",
-    "description": "[TO BE COMPLETED] SEO description for the home page (reuse / rewrite the current one)."
+    "title": "Shrtcut - AI + 20 years of web & mobile expertise",
+    "description": "Web and mobile application development + AI Consulting. Guaranteed delivery in 15 days. Expert with 20 years of experience."
+  },
+  "hero": {
+    "tagline": "Shrtcut is <strong><em>20 years of web and mobile expertise</em></strong>, boosted by <strong><em>AI</em></strong>, at your service.",
+    "ctaPrimary": "Start a project",
+    "ctaSecondary": "Book a workshop",
+    "who": "Who is Shrtcut?",
+    "ctaDev": {
+      "category": "WEB & MOBILE DEVELOPMENT",
+      "promise": "Your app in 15 days",
+      "tooltip": "Whatever the size of your project, let's start with a functional brick. Designed, developed and delivered in 2 weeks."
+    },
+    "ctaConseil": {
+      "category": "CONSULTING",
+      "promise": "Clarify, prioritize, concretize",
+      "tooltip": "Clarify needs and propose the right technical solution. It's been our job for 20 years."
+    }
+  },
+  "header": {
+    "devLink": "Web & Mobile Development",
+    "conseilLink": "Consulting",
+    "changeLanguage": "Change language",
+    "contactUs": "Contact us"
+  },
+  "cta": {
+    "estimateProject": "Can we split my project into bricks?",
+    "talkToConsultant": "Contact"
+  },
+  "developpement": {
+    "sectionTitle": "Application Design and Development",
+    "title": "Your web or mobile application in <u>15 days</u>.",
+    "subtitle": "We reduce your project together to its first essential functional brick. Designed, developed and delivered in 2 weeks.",
+    "price": "€5,000 excl. VAT",
+    "priceNote": "Guaranteed budget — no overruns",
+    "duration": "2 weeks",
+    "guaranteesSubtitle": "Budget and deadline guaranteed",
+    "whyTitle": "Why 2 weeks?",
+    "whyPoints": [
+      "We firmly believe in \"less is more\". Reducing your project to its essentials is a very instructive exercise. Don't worry, we have the methods to help you.",
+      "Delays are missed opportunities. Projects that ship are always better than the others.",
+      "There's a reason why 2 weeks is the standard duration of a sprint in Agile methodology: no tunnel effect. We deliver concrete results quickly to test your app quickly!",
+      "Everything is faster today thanks to the alliance of human expertise and artificial intelligence. In 2 weeks we guarantee we can code and deliver the 1st essential and functional brick of your project."
+    ],
+    "guaranteesTitle": "Our guarantees:",
+    "guarantees": [
+      "Guaranteed budget: €5000 excl. VAT — no overruns",
+      "Guaranteed deadline: 2 weeks of development — no overruns (full refund)",
+      "Delivery of clean code that you own: optimized, robust code that meets standards, ready to be taken over by any competent developer, and ready to serve as the basis for your application's evolution."
+    ],
+    "cta": "Start a project",
+    "bridge": "Need to clarify your idea or priorities?",
+    "bridgeLink": "Discover our consulting offers"
+  },
+  "process": {
+    "sectionTitle": "How does it work?",
+    "steps": [
+      {
+        "title": "Discovery call",
+        "description": "We start with a simple 15-minute call to get to know each other and see if your project qualifies for such a 2-week brick breakdown"
+      },
+      {
+        "title": "Scoping meeting",
+        "description": "If yes, we schedule a 1-hour meeting during which we define this 1st brick in detail"
+      },
+      {
+        "title": "Specifications",
+        "description": "We write detailed technical specifications and have you validate them"
+      },
+      {
+        "title": "Contract",
+        "description": "Contractualization and online payment of 50% of the amount"
+      },
+      {
+        "title": "Design",
+        "description": "We create the design of your application and have you validate it (1-2 days in general)"
+      },
+      {
+        "title": "Development",
+        "description": "Start of the 15-day development phase"
+      },
+      {
+        "title": "Delivery",
+        "description": "Delivery on our test server or directly on your server (we also guide you on that if needed)!"
+      },
+      {
+        "title": "Final payment",
+        "description": "Payment of the remaining 50% upon going live!"
+      }
+    ],
+    "afterTitle": "What's next?",
+    "afterDescription": "You continue with us (we hope) or without us for the following bricks, the code is yours!",
+    "showDetail": "See detailed process",
+    "collapse": "Collapse",
+    "summarySteps": [
+      {
+        "title": "Discovery call",
+        "desc": "15 min to qualify your project"
+      },
+      {
+        "title": "Framing & Design",
+        "desc": "Detailed specs + validated mockups"
+      },
+      {
+        "title": "Development",
+        "desc": "15 days of development"
+      },
+      {
+        "title": "Delivery",
+        "desc": "Go-live + complete source code"
+      }
+    ]
+  },
+  "conseil": {
+    "sectionTitle": "Consulting",
+    "title": "Clarify, prioritize, concretize",
+    "longIntro": "The best decisions come from a clear and shared vision.\nI help teams and project leaders get out of the fog, prioritize what matters and transform their challenges into concrete solutions — whether it's a product, a service or an AI project.",
+    "intro": "Dual engineering degree in AI (well before the chatGPT hype) and Aerospace (the rigor of embedded systems), as well as 20 years of experience in software, web and mobile projects.",
+    "expertise": "",
+    "labels": {
+      "schedule": "Schedule",
+      "deliverables": "Deliverables",
+      "option": "Option:"
+    },
+    "ateliers": [
+      {
+        "id": "mvp",
+        "title": "Workshop \"MVP Sprint\" — Clarify your challenges and give shape to your ideas",
+        "intro": "You have an idea, ideas, you don't know where to start, what's relevant, what's complicated, what's essential, what's technically possible with the latest AI technologies or not. The goal of this workshop is to eliminate the superfluous and give you a clarified vision.",
+        "price": "€890 excl. VAT",
+        "duration": "1 day",
+        "deroulement": [
+          "Half a day (3 hours) of exploration and ideation, questioning and constructive criticism, then organization and clarification of ideas",
+          "Half a day (3 hours) of listing and prioritizing features, then designing your MVP"
+        ],
+        "livrables": [
+          "A workshop report with the functional and technical choices made",
+          "A data schema and graphic mockups of the application",
+          "A development estimate broken down into 2-week bricks"
+        ],
+        "cta": "Book this workshop"
+      },
+      {
+        "id": "ia",
+        "title": "Workshop \"AI Express\" — Transform a problem into an AI solution",
+        "intro": "We take one of your particular problems and confront it with innovative but proven AI solutions, to see what can adapt to your business context. We aim here as everywhere for an intelligent and relevant integration of AI, to give you a real advantage.",
+        "price": "€490 excl. VAT",
+        "duration": "Half-day (3h max)",
+        "deroulement": [
+          "Detailed definition of the problem or challenge (\"a well-posed problem is half solved\"): existing, objective, actors, inputs/outputs, constraints",
+          "Search for potentially suitable solutions and pre-selection",
+          "Verdict (choice or not, of a candidate technology)",
+          "Sketch of the technical solution"
+        ],
+        "livrables": [
+          "A workshop report including a summary of the problem, objectives and sketch of the identified AI solution"
+        ],
+        "option": "Development of a POC (Proof of Concept) of the solution, delivered in 48h. €890 excl. VAT",
+        "cta": "Book this workshop"
+      },
+      {
+        "id": "mission",
+        "title": "Consulting Mission — Integrate AI as a Decisive Advantage",
+        "tagline": "Integrate Artificial Intelligence as a decisive advantage in your business",
+        "intro": "Every day new announcements, new tools, new methods... Are you lost? Don't panic. We start from your real needs, and see if AI can be relevant for you, and how. A first 30-minute meeting will already give us a good idea of potential leads.",
+        "firstCall": "A first 30-minute meeting will already give us a good idea of potential leads, and whether it's worth continuing. If so, you'll be in good hands!",
+        "price": "Custom",
+        "methodTitle": "10-step method:",
+        "method": [
+          "Sign a confidentiality agreement",
+          "Audit your business processes, decision systems, and data flows",
+          "Analyze possible optimizations using the most suitable AI technologies taking into account your specific constraints (cloud/local, confidentiality, human in the loop, etc.)",
+          "Choose from 3 optimization scenarios proposed by our consultant:\n  • Maximum impact with minimum process changes\n  • Maximum cost reduction\n  • Complete overhaul of the information system around AI agents",
+          "Customize the chosen solution",
+          "Define the right KPIs (Measurable Objectives)",
+          "Technically specify the solution",
+          "Estimate and validate the budget",
+          "Implement the solution",
+          "Measure impact and results continuously"
+        ],
+        "cta": "Let's talk?"
+      }
+    ]
+  },
+  "consultant": {
+    "sectionTitle": "Who runs Shrtcut?",
+    "title": "Consultant",
+    "name": "David Lascombe",
+    "role": "Founder of Shrtcut",
+    "intro": "In twenty years of digital projects, I've often seen the same thing: promising but fuzzy ideas, or ambitious projects that struggle to find their framework. My role, whether it's application development or consulting, is to bring clarity — understand real needs, connect strategy to concrete solutions and help turn an idea into a feasible project.",
+    "labels": {
+      "education": "Education",
+      "experience": "Experience",
+      "clients": "Clients supported"
+    },
+    "clientsText": "CNRS, Suez, Red Bull, La Banque Postale, CDiscount, Dekra, Cultura, and dozens of startups, SMEs, midcaps and project leaders in France, Canada and elsewhere...",
+    "diplomas": [
+      "Dual engineering degree in AI (well before the chatGPT hype) and Aerospace (the rigor of embedded systems)",
+      "20 years of experience in software, web and mobile projects"
+    ],
+    "expertise": [
+      "Supporting project leaders on UX, tech and business topics: startups, SMEs, and large groups for nearly 15 years",
+      "Company leader and innovator for over 10 years"
+    ],
+    "linkedin": "https://www.linkedin.com/in/david-l-a7276813/"
+  },
+  "contact": {
+    "title": "Let's talk?",
+    "subtitle": "It all starts here.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "project": "Tell us about your project",
+      "projectPlaceholder": "Describe your project, your needs, your goals...",
+      "offerType": "Which offer are you interested in?",
+      "offers": {
+        "dev": "Application Development (15 days)",
+        "mvp": "MVP Workshop (1 day)",
+        "ia": "AI Workshop (half-day)",
+        "mission": "AI Consulting Mission",
+        "other": "I don't know yet"
+      },
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Message sent! We will contact you soon.",
+      "error": "An error occurred. Please try again.",
+      "subject": "New contact from Shrtcut.ai",
+      "generalRequest": "General request",
+      "notProvided": "Not provided",
+      "notSpecified": "Not specified",
+      "message": "Message"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "legal": "Legal notice",
+    "email": "go@shrtcut.ai",
+    "offers": "Our offers",
+    "location": "Shrtcut SAS\n60 rue François 1er\n75008 Paris",
+    "copyright": "SAS Shrtcut 60 rue François 1er 75008 Paris",
+    "legalTitle": "LEGAL",
+    "companyTitle": "COMPANY"
+  },
+  "legalNotice": {
+    "title": "Legal notice",
+    "companyDetails": {
+      "title": "Company identity",
+      "content": "Société par Actions Simplifiée Shrtcut\n60 rue François 1er\n75008 Paris\nSIREN : 939 463 048 RCS PARIS"
+    },
+    "hosting": {
+      "title": "Hosting",
+      "content": "This site is hosted by GANDI SAS\nSociété par Actions Simplifiée\n63-65 boulevard Masséna\n75013 Paris\nFRANCE\nSIREN : 423 093 459 RCS PARIS"
+    },
+    "intellectualProperty": {
+      "title": "Intellectual property",
+      "content": "This entire site is subject to French and international legislation on copyright and intellectual property. All reproduction rights are reserved. The reproduction of all or part of this site on any medium is strictly prohibited except with express authorization from Shrtcut."
+    },
+    "dataProtection": {
+      "title": "Personal data protection",
+      "content": "In accordance with the Data Protection Act of January 6, 1978, you have the right to access, rectify and delete data concerning you. To exercise this right, please contact us by email."
+    }
   },
   "nav": {
-    "home": "Home",
+    "switchTo": "FR",
     "caseStudies": "Case studies",
-    "estimation": "Estimate my project",
-    "switchTo": "FR"
+    "estimation": "Estimate my project"
   },
-  "home": {
-    "placeholder": "Home page — content to migrate (next step)."
-  },
-  "caseStudies": {
-    "placeholder": "Case study \"{slug}\" — content to be written."
-  },
-  "estimation": {
-    "placeholder": "Project estimation tool — to be built."
+  "pages": {
+    "caseStudies": {
+      "placeholder": "Case study \"{slug}\" — content to be written."
+    },
+    "estimation": {
+      "placeholder": "Project estimation tool — to be built."
+    }
   }
 }

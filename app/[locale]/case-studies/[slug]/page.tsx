@@ -3,17 +3,15 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import LocaleSwitcher from "@/components/LocaleSwitcher";
 import { Link } from "@/i18n/navigation";
 
-// TODO étape suivante : generateStaticParams() sur les 3 slugs réels.
-// [À COMPLÉTER] noms des clients / slugs — aucun contenu inventé ici.
-
-type PageProps = {
+// TODO (hors périmètre étape 2) : generateStaticParams() sur les 3 slugs réels,
+// et contenu des cas clients — [À COMPLÉTER].
+export default async function CaseStudyPage({
+  params,
+}: {
   params: Promise<{ locale: string; slug: string }>;
-};
-
-export default async function CaseStudyPage({ params }: PageProps) {
+}) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
-
   const t = await getTranslations();
 
   return (
@@ -24,9 +22,8 @@ export default async function CaseStudyPage({ params }: PageProps) {
         </Link>
         <LocaleSwitcher />
       </header>
-
       <h1 className="text-3xl font-bold text-white">{t("nav.caseStudies")}</h1>
-      <p className="text-gray-400">{t("caseStudies.placeholder", { slug })}</p>
+      <p className="text-gray-400">{t("pages.caseStudies.placeholder", { slug })}</p>
     </main>
   );
 }

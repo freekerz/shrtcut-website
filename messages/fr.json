@@ -1,21 +1,279 @@
 {
   "meta": {
-    "title": "Shrtcut",
-    "description": "[À COMPLÉTER] description SEO de la home (reprendre / réécrire celle du site actuel)."
+    "title": "Shrtcut - L'IA + 20 ans d'expertise web et mobile",
+    "description": "Développement d'applications web et mobile + Conseil IA. Livraison garantie en 15 jours. Expert avec 20 ans d'expérience."
+  },
+  "hero": {
+    "tagline": "Shrtcut c'est <strong><em>20 ans d'expertise web et mobile</em></strong>, boostée à l''<strong><em>IA</em></strong>, à votre service.",
+    "ctaPrimary": "Démarrer un projet",
+    "ctaSecondary": "Réserver un atelier",
+    "who": "Shrcut, c'est qui ?",
+    "ctaDev": {
+      "category": "DÉVELOPPEMENT WEB & MOBILE",
+      "promise": "Votre application en 15 jours",
+      "tooltip": "Quelque soit la taille de votre projet, commençons par une brique fonctionnelle. Développée et livrée en 2 semaines."
+    },
+    "ctaConseil": {
+      "category": "CONSEIL",
+      "promise": "Clarifier, prioriser, concrétiser",
+      "tooltip": "Clarifier les besoins et proposer la bonne solution technique. C'est notre métier depuis 20 ans."
+    }
+  },
+  "header": {
+    "devLink": "Développement Web et Mobile",
+    "conseilLink": "Conseil",
+    "changeLanguage": "Changer de langue",
+    "contactUs": "Nous contacter"
+  },
+  "cta": {
+    "estimateProject": "Peut-on découper mon projet en briques ?",
+    "talkToConsultant": "Contact"
+  },
+  "developpement": {
+    "sectionTitle": "Conception et développement d'application",
+    "title": "Votre application web ou mobile en <u>15 jours</u>.",
+    "subtitle": "On réduit ensemble votre projet à sa première brique fonctionnelle essentielle. Développée et livrée en 2 semaines.",
+    "price": "5 000€ HT",
+    "priceNote": "Budget garanti — pas de dépassement",
+    "duration": "2 semaines",
+    "guaranteesSubtitle": "Budget et délai garantis",
+    "whyTitle": "Pourquoi 2 semaines ?",
+    "whyPoints": [
+      "On croit fermement au \"less is more\". Réduire votre projet à son essentiel est un exercice très instructif. Ne vous inquiétez pas on a les méthodes pour vous y aider.",
+      "Les temps de retards sont des opportunités manquées. Les projets qui sortent valent toujours mieux que les autres.",
+      "Ce n'est pas pour rien que 2 semaines est la durée standard d'un sprint en méthodologie Agile : pas d'effet tunnel. On livre du concret rapidement pour tester votre app rapidement !",
+      "Tout va plus vite aujourd'hui grâce à l'alliance de l'expertise humaine et de l'intelligence artificielle. En 2 semaines on garantie pouvoir coder et livrer la 1ère brique essentielle et fonctionnelle de votre projet."
+    ],
+    "guaranteesTitle": "Nos garanties :",
+    "guarantees": [
+      "Budget garanti : 5000€ht — pas de dépassement",
+      "Délai garanti : 2 semaines de développement — pas de dépassement (remboursement total)",
+      "Livraison d'un code propre et dont vous êtes propriétaire : code optimisé, robuste et respectant les standards, prêt à être repris par n'importe quel développeur compétent, et prêt à servir de base aux évolutions de votre application."
+    ],
+    "cta": "Démarrer un projet",
+    "bridge": "Besoin d'éclaircir votre idée ou vos priorités ?",
+    "bridgeLink": "Découvrez nos offres de conseil"
+  },
+  "process": {
+    "sectionTitle": "Notre process de dev en 15 jours",
+    "steps": [
+      {
+        "title": "Appel découverte",
+        "description": "On démarre par un simple appel de 15min pour faire connaissance et voir si votre projet se qualifie pour un tel découpage en brique de 2 semaines"
+      },
+      {
+        "title": "Réunion de cadrage",
+        "description": "Si oui, on prend rdv pour une réunion d'1 heure au cours de laquelle on définit cette 1ère brique en détails"
+      },
+      {
+        "title": "Spécifications",
+        "description": "On rédige les spécifications techniques détaillées et on vous les fait valider"
+      },
+      {
+        "title": "Contractualisation",
+        "description": "Contractualisation et paiement en ligne de 50% de la somme"
+      },
+      {
+        "title": "Design",
+        "description": "On réalise le design de votre application et vous le fait valider (1-2 jours en général)"
+      },
+      {
+        "title": "Développement",
+        "description": "Démarrage de la phase de développement de 15 jours"
+      },
+      {
+        "title": "Livraison",
+        "description": "Livraison sur notre serveur de test ou directement sur votre serveur (on vous guide aussi là dessus si besoin) !"
+      },
+      {
+        "title": "Paiement final",
+        "description": "Paiement des 50% restant à la mise en ligne !"
+      }
+    ],
+    "afterTitle": "Et la suite ?",
+    "afterDescription": "Vous continuez avec nous ou sans nous, le code est à vous, vous êtes libres.",
+    "showDetail": "Voir le détail du process",
+    "collapse": "Replier",
+    "summarySteps": [
+      {
+        "title": "Appel découverte",
+        "desc": "15 min pour qualifier votre projet"
+      },
+      {
+        "title": "Cadrage & Design",
+        "desc": "Specs détaillées + maquettes validées"
+      },
+      {
+        "title": "Développement",
+        "desc": "15 jours de développement"
+      },
+      {
+        "title": "Livraison",
+        "desc": "Mise en ligne + code source complet"
+      }
+    ]
+  },
+  "conseil": {
+    "sectionTitle": "Conseil",
+    "title": "Clarifier, prioriser, concrétiser",
+    "longIntro": "Les meilleures décisions viennent d'une vision claire et partagée.\nJ'aide les équipes et les porteurs de projets à sortir du flou, à prioriser ce qui compte et à transformer leurs enjeux en solutions concrètes — qu'il s'agisse d'un produit, d'un service ou d'un projet IA.",
+    "intro": "Double diplôme d'ingénieur en IA (bien avant la hype de chatGPT) et Aéronautique (la rigueur des systèmes embarqués), ainsi que 20 ans d'expérience en projets logiciel, web et mobile.",
+    "expertise": "",
+    "labels": {
+      "schedule": "Déroulement",
+      "deliverables": "Livrables",
+      "option": "Option :"
+    },
+    "ateliers": [
+      {
+        "id": "mvp",
+        "title": "Atelier “MVP Sprint” — Clarifier vos enjeux et donner forme à vos idées",
+        "intro": "Vous avez une idée, des idées, vous ne savez pas par où commencer, ce qui est pertinent, ce qui est compliqué, ce qui est essentiel, ce qui est techniquement possible avec les dernières technologies IA ou non. L'objectif de cet aterlier est d'éliminer le superflu et de vous donner une vision clarifiée.",
+        "price": "890€ HT",
+        "duration": "1 jour",
+        "deroulement": [
+          "Une demie journée (3 heures) d'exploration et d'idéation, de questionnements et de critique constructive, puis d'organisation et de clarification des idées",
+          "Une demie journée (3 heures) de listing et de priorisation des fonctionnalités, puis de conception de votre MVP"
+        ],
+        "livrables": [
+          "Un compte rendu de l'atelier avec les choix fonctionnels et techniques effectués",
+          "Un schéma de données et des maquettes graphiques de l'application",
+          "Une estimation de développement découpée en briques de 2 semaines"
+        ],
+        "cta": "Réserver cet atelier"
+      },
+      {
+        "id": "ia",
+        "title": "Atelier “IA Express” — Transformer un problème en solution IA",
+        "intro": "On prend une de vos problématiques particulière et on la confronte avec des solutions IA innovantes mais éprouvées, pour voir ce qui peut s'adapter à votre contexte business. On vise ici comme partout une intégration intelligente et pertinente de l'IA, pour vous donner un vrai avantage.",
+        "price": "490€ HT",
+        "duration": "Demi-journée (3h max)",
+        "deroulement": [
+          "Définition détaillée du problème ou du défi (\"un problème bien posé est à moitié résolu\") : existant, objectif, acteurs, entrées / sorties, contraintes",
+          "Recherche de solutions potentiellement adaptées et pré-sélection",
+          "Verdict (choix ou non, d'une technologie candidate)",
+          "Ebauche de la solution technique"
+        ],
+        "livrables": [
+          "Un compte rendu de l'atelier incluant un résumé de la problématique, des objectifs et l'ébauche de la solution IA identifiée"
+        ],
+        "option": "Développement d'un POC (Proof of Concept) de la solution, livré en 48h. 890€ht",
+        "cta": "Réserver cet atelier"
+      },
+      {
+        "id": "mission",
+        "title": "Mission de Conseil — Intégrer l'IA comme Avantage Décisif",
+        "tagline": "Intégrer l'Intelligence Artificielle comme avantage décisif dans votre entreprise",
+        "intro": "Chaque jour de nouvelles annonces, de nouveaux outils, de nouvelles méthodes... Vous vous y perdez ? Pas de panique. On repart de vos besoins réels, et on voit si l'IA peut-être pertinente pour vous, et comment. Une première réunion de 30min nous donnera déjà une bonne idée des pistes potentielles.",
+        "firstCall": "Une première réunion de 30min nous donnera déjà une bonne idée des pistes potentielles, et si ça vaut la peine de continuer. Si oui, alors vous serez entre de bonnes mains !",
+        "price": "Sur mesure",
+        "methodTitle": "Méthode en 10 étapes :",
+        "method": [
+          "Signer un accord de confidentialité",
+          "Auditer vos process métiers, système de décisions, et flux de données",
+          "Analyser les optimisations possibles grâce aux technologies IA les plus adaptées en tenant compte de vos contraintes spécifiques (cloud / local, confidentialité, humain dans la boucle, etc.)",
+          "Choisir parmi 3 scenarios d'optimisation proposées par notre consultant :\n  • Impact maximum avec minimum de changements de process\n  • Réduction maximale des coûts\n  • Refonte totale du système d'information autour d'agents IA",
+          "Adapter sur mesure la solution choisie",
+          "Définir les bons KPIs (Objectifs mesurables)",
+          "Spécifier techniquement la solution",
+          "Estimer et valider le budget",
+          "Implémenter la solution",
+          "Mesurer l'impact et les résultats en continu"
+        ],
+        "cta": "On en parle ?"
+      }
+    ]
+  },
+  "consultant": {
+    "sectionTitle": "Qui pilote Shrtcut ?",
+    "title": "Consultant",
+    "name": "David Lascombe",
+    "role": "Fondateur de Shrtcut",
+    "intro": "En vingt ans de projets numériques, j'ai souvent vu la même chose : des idées prometteuses, mais floues, ou des projets ambitieux qui peinent à trouver leur cadre. Mon rôle, qu'il s'agisse de développement d'application ou de conseil, c'est d'apporter de la clarté — comprendre les vrais besoins, relier la stratégie aux solutions concrètes et aider à transformer une idée en projet réalisable.",
+    "labels": {
+      "education": "Formation et expérience",
+      "experience": "Compétences",
+      "clients": "Clients accompagnés"
+    },
+    "clientsText": "CNRS, Suez, Red Bull, La Banque Postale, CDiscount, Dekra, Cultura, et des dizaines de startups, PME, ETI et porteurs de projets en France, au Canada et ailleurs...",
+    "diplomas": [
+      "Double formation d'ingénieur : IA (bien avant la hype de chatGPT) et Aéronautique (la rigueur des systèmes embarqués)",
+      "20 ans d'expérience en projets logiciel, web et mobile"
+    ],
+    "expertise": [
+      "Accompagnement de porteurs de projets sur des sujets UX, tech et business : startups, PME, et grands groupes pendant près de 15 ans",
+      "Dirigeant d'entreprise et innovateur pendant plus de 10 ans"
+    ],
+    "linkedin": "https://www.linkedin.com/in/david-l-a7276813/"
+  },
+  "contact": {
+    "title": "On en parle ?",
+    "subtitle": "Tout commence ici.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone (optionnel)",
+      "project": "Parlez-nous de votre projet",
+      "projectPlaceholder": "Décrivez votre projet, vos besoins, vos objectifs...",
+      "offerType": "Quelle offre vous intéresse ?",
+      "offers": {
+        "dev": "Développement d'application (15 jours)",
+        "mvp": "Atelier MVP (1 jour)",
+        "ia": "Atelier IA (demi-journée)",
+        "mission": "Mission de conseil IA",
+        "other": "Je ne sais pas encore"
+      },
+      "submit": "Envoyer",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé ! Nous vous recontacterons rapidement.",
+      "error": "Une erreur est survenue. Veuillez réessayer.",
+      "subject": "Nouveau contact depuis Shrtcut.ai",
+      "generalRequest": "Demande générale",
+      "notProvided": "Non renseigné",
+      "notSpecified": "Non spécifié",
+      "message": "Message"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "legal": "Mentions légales",
+    "email": "go@shrtcut.ai",
+    "offers": "Nos offres",
+    "location": "Shrtcut SAS\n60 rue François 1er\n75008 Paris",
+    "copyright": "SAS Shrtcut 60 rue François 1er 75008 Paris",
+    "legalTitle": "LÉGAL",
+    "companyTitle": "SOCIÉTÉ"
+  },
+  "legalNotice": {
+    "title": "Mentions légales",
+    "companyDetails": {
+      "title": "Identité de la société",
+      "content": "Société par Actions Simplifiée Shrtcut\n60 rue François 1er\n75008 Paris\nSIREN : 939 463 048 RCS PARIS"
+    },
+    "hosting": {
+      "title": "Hébergement",
+      "content": "Ce site est hébergé par GANDI SAS\nSociété par Actions Simplifiée\n63-65 boulevard Masséna\n75013 Paris\nFRANCE\nSIREN : 423 093 459 RCS PARIS"
+    },
+    "intellectualProperty": {
+      "title": "Propriété intellectuelle",
+      "content": "L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés. La reproduction de tout ou partie de ce site sur quelque support que ce soit est formellement interdite sauf autorisation expresse de Shrtcut."
+    },
+    "dataProtection": {
+      "title": "Protection des données personnelles",
+      "content": "Conformément à la loi Informatique et Libertés du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification et de suppression des données vous concernant. Pour l'exercer, veuillez nous contacter par email."
+    }
   },
   "nav": {
-    "home": "Accueil",
+    "switchTo": "EN",
     "caseStudies": "Références",
-    "estimation": "Estimer mon projet",
-    "switchTo": "EN"
+    "estimation": "Estimer mon projet"
   },
-  "home": {
-    "placeholder": "Page d'accueil — contenu à migrer (étape suivante)."
-  },
-  "caseStudies": {
-    "placeholder": "Cas client « {slug} » — contenu à écrire."
-  },
-  "estimation": {
-    "placeholder": "Outil d'estimation de projet — à construire."
+  "pages": {
+    "caseStudies": {
+      "placeholder": "Cas client « {slug} » — contenu à écrire."
+    },
+    "estimation": {
+      "placeholder": "Outil d'estimation de projet — à construire."
+    }
   }
 }

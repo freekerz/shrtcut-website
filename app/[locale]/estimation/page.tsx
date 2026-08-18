@@ -8,14 +8,15 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-type PageProps = {
+// TODO (hors périmètre étape 2) : outil d'estimation — règles de calcul et
+// grille tarifaire [À COMPLÉTER].
+export default async function EstimationPage({
+  params,
+}: {
   params: Promise<{ locale: string }>;
-};
-
-export default async function EstimationPage({ params }: PageProps) {
+}) {
   const { locale } = await params;
   setRequestLocale(locale);
-
   const t = await getTranslations();
 
   return (
@@ -26,11 +27,8 @@ export default async function EstimationPage({ params }: PageProps) {
         </Link>
         <LocaleSwitcher />
       </header>
-
       <h1 className="text-3xl font-bold text-white">{t("nav.estimation")}</h1>
-      {/* TODO : outil d'estimation — règles de calcul et grille tarifaire
-          [À COMPLÉTER] (à définir avec toi). */}
-      <p className="text-gray-400">{t("estimation.placeholder")}</p>
+      <p className="text-gray-400">{t("pages.estimation.placeholder")}</p>
     </main>
   );
 }
