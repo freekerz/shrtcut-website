@@ -4,6 +4,11 @@ import LocaleSwitcher from "@/components/LocaleSwitcher";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 
+import type { Metadata } from "next";
+
+// Coquille sans contenu : on empêche l'indexation tant que l'outil n'existe pas.
+export const metadata: Metadata = { robots: { index: false, follow: true } };
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }

@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Inter, Shadows_Into_Light } from "next/font/google";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
 import { routing } from "@/i18n/routing";
+import { pageMetadata, SITE_URL } from "@/lib/seo";
 
 import "../globals.css";
+
+// ID de mesure GA4 (repris de l'ancien index.html du site Vite).
+const GA_ID = "G-FZPDLKGZXS";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -39,11 +44,16 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "meta" });
 
   return {
-    title: t("title"),
-    description: t("description"),
+    metadataBase: new URL(SITE_URL),
+    // Métadonnées de la home (canonical + hreflang + OpenGraph + Twitter).
+    // Les pages enfants (estimation, mentions-legales) redéfinissent les leurs.
+    ...pageMetadata({
+      locale,
+      path: "",
+      title: t("title"),
+      description: t("description"),
+    }),
     icons: { icon: "/favicon.svg", apple: "/favicon.svg" },
-    // [À COMPLÉTER] metadataBase + openGraph/twitter une fois le domaine de
-    // preprod/prod arbitré (voir index.html du projet Vite pour les valeurs).
   };
 }
 
@@ -64,6 +74,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
       >
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
+      <GoogleAnalytics gaId={GA_ID} />
     </html>
   );
 }

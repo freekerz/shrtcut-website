@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { pageMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -15,7 +16,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "legalNotice" });
-  return { title: `${t("title")} — Shrtcut` };
+  return pageMetadata({
+    locale,
+    path: "/mentions-legales",
+    title: `${t("title")} — Shrtcut`,
+  });
 }
 
 const SECTIONS = [

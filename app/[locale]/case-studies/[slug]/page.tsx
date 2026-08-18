@@ -5,6 +5,11 @@ import { Link } from "@/i18n/navigation";
 
 // TODO (hors périmètre étape 2) : generateStaticParams() sur les 3 slugs réels,
 // et contenu des cas clients — [À COMPLÉTER].
+import type { Metadata } from "next";
+
+// Coquilles sans contenu : pas d'indexation tant que les cas ne sont pas écrits.
+export const metadata: Metadata = { robots: { index: false, follow: true } };
+
 export default async function CaseStudyPage({
   params,
 }: {
