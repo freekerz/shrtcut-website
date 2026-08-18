@@ -2,7 +2,7 @@ import { Award, Briefcase } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-import davidPhoto from "@/public/david-lascombe.png";
+import davidPhoto from "@/public/david-lascombe.webp";
 
 // lucide-react ne fournit plus les logos de marque : SVG LinkedIn inline.
 const LinkedinIcon = ({ className }: { className?: string }) => (
