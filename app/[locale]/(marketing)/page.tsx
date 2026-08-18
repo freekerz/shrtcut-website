@@ -5,6 +5,7 @@ import ContactForm from "@/components/home/ContactForm";
 import Footer from "@/components/home/Footer";
 import Header from "@/components/home/Header";
 import Hero from "@/components/home/Hero";
+import JsonLd from "@/components/home/JsonLd";
 import OffreDeveloppement from "@/components/home/OffreDeveloppement";
 import OffresConseil from "@/components/home/OffresConseil";
 import ProcessDeveloppement from "@/components/home/ProcessDeveloppement";
@@ -24,6 +25,7 @@ export default async function HomePage({
 
   return (
     <div className="min-h-screen bg-[#121212]">
+      <JsonLd locale={locale} />
       <Header />
       <Hero />
       {/* Consultant placé juste après le Hero (ordre de l'ancien HomeRefonte) */}
