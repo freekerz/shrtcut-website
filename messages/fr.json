@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Shrtcut",
+    "description": "[À COMPLÉTER] description SEO de la home (reprendre / réécrire celle du site actuel)."
+  },
+  "nav": {
+    "home": "Accueil",
+    "caseStudies": "Références",
+    "estimation": "Estimer mon projet",
+    "switchTo": "EN"
+  },
+  "home": {
+    "placeholder": "Page d'accueil — contenu à migrer (étape suivante)."
+  },
+  "caseStudies": {
+    "placeholder": "Cas client « {slug} » — contenu à écrire."
+  },
+  "estimation": {
+    "placeholder": "Outil d'estimation de projet — à construire."
+  }
+}

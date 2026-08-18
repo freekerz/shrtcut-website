@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+ * Design tokens — portage à l'identique de tailwind.config.js + :root du
+ * projet Vite (Tailwind v3 -> Tailwind v4 "CSS-first").
+ * ------------------------------------------------------------------------- */
+@theme {
+  /* Polices : injectées par next/font (app/[locale]/layout.tsx) */
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  --font-handwritten: var(--font-shadows-into-light), "Patrick Hand",
+    "Cedarville Cursive", cursive;
+
+  /* Palette "primary" (tailwind.config.js) */
+  --color-primary: #6366f1;
+  --color-primary-50: #f5f7ff;
+  --color-primary-100: #ebf0fe;
+  --color-primary-200: #d7e1fd;
+  --color-primary-300: #b4c6fa;
+  --color-primary-400: #818cf8;
+  --color-primary-500: #6366f1;
+  --color-primary-600: #4f46e5;
+  --color-primary-700: #4338ca;
+  --color-primary-800: #3730a3;
+  --color-primary-900: #312e81;
+
+  /* Palette "accent" (tailwind.config.js) */
+  --color-accent: #f59e0b;
+  --color-accent-50: #fffbeb;
+  --color-accent-100: #fef3c7;
+  --color-accent-200: #fde68a;
+  --color-accent-300: #fcd34d;
+  --color-accent-400: #fbbf24;
+  --color-accent-500: #f59e0b;
+  --color-accent-600: #d97706;
+  --color-accent-700: #b45309;
+  --color-accent-800: #92400e;
+  --color-accent-900: #78350f;
+
+  /* Variables :root de src/index.css */
+  --color-success: #10b981;
+  --color-bg: #0a0a0f;
+  --color-surface: #1a1a1f;
+  --color-text: #f9fafb;
+  --color-text-secondary: #9ca3af;
+
+  /* Animation "fade-in-up" */
+  --animate-fade-in-up: fade-in-up 0.6s ease-out;
+
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Breakpoints custom du projet Vite (mobile/tablet/laptop/desktop).
+ * Ils encadrent min ET max, ce que --breakpoint-* de Tailwind v4 ne sait pas
+ * exprimer : on les redéfinit donc en variants. */
+@custom-variant mobile (@media (max-width: 639px));
+@custom-variant tablet (@media (min-width: 640px) and (max-width: 1023px));
+@custom-variant laptop (@media (min-width: 1024px) and (max-width: 1279px));
+@custom-variant desktop (@media (min-width: 1280px));
+
+/* ---------------------------------------------------------------------------
+ * Styles globaux (portage de src/index.css)
+ * ------------------------------------------------------------------------- */
+
+/* [À DÉCIDER — étape suivante] La home actuelle n'utilise pas ces variables :
+ * elle code en dur #121212 / #1a1a1a / #0f0f0f / #0a0a0a. À tokeniser lors de
+ * la migration des composants. */
+body {
+  font-family: var(--font-sans);
+  background-color: #121212;
+  color: var(--color-text);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Utilitaires custom repris de src/index.css */
+.text-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-accent) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-modern {
+  background: rgba(26, 26, 31, 0.6);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+.card-modern:hover {
+  border-color: rgba(99, 102, 241, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.1);
+}
+
+/* Annotation manuscrite du hero */
+.font-handwritten-shadow {
+  font-family: var(--font-handwritten);
+  letter-spacing: 0.02em;
+}
+
+.handwriting-pencil {
+  color: rgba(228, 234, 241, 0.9);
+  text-shadow:
+    0.35px 0.35px 0 rgba(255, 255, 255, 0.08),
+    -0.7px -0.7px 0 rgba(0, 0, 0, 0.24);
+}

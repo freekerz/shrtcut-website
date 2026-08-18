@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Shrtcut",
+    "description": "[TO BE COMPLETED] SEO description for the home page (reuse / rewrite the current one)."
+  },
+  "nav": {
+    "home": "Home",
+    "caseStudies": "Case studies",
+    "estimation": "Estimate my project",
+    "switchTo": "FR"
+  },
+  "home": {
+    "placeholder": "Home page — content to migrate (next step)."
+  },
+  "caseStudies": {
+    "placeholder": "Case study \"{slug}\" — content to be written."
+  },
+  "estimation": {
+    "placeholder": "Project estimation tool — to be built."
+  }
+}
